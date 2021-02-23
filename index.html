@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <header>
+  <header class="header"> 
     <h1>The Code Review</h1>
   </header>
 
-  <div class="head-text">
-    <h2 class="b-text">Signup for our newsletter</h2>
-    <p class="w-text">Get the latest news on how your code is doing right in your inbox</p>
+  <div class="header-subtext">
+    <h2 class="a-text">Signup for our newsletter</h2>
+    <p class="b-text">Get the latest news on how your code is doing right in your inbox</p>
   </div>
 
   <div id="container">
@@ -67,28 +67,31 @@
       </fieldset>
   </div>
 
-  <fieldset class="news-field">
-    <legend class="newsletter">News Letter</legend>
-    <label>Select the newsletter you would like to recieve</label><br>
+  <div id="container">
+    <fieldset class="news-field">
+      <legend class="newsletter">News Letter</legend>
+      <label>Select the newsletter you would like to recieve</label><br>
 
-       <input type="checkbox" id="html-news" name="user_newsletter" value="html"><label for="html-news">HTML News</label><br>
-       <input type="checkbox" id="css-news" name="user_newsletter" value="css"><label for="css-news">CSS News</label><br>
-       <input type="checkbox" id="javascript-news" name="user_newsletter" value="javascript"><label for="javascript-news">Javascript News</label><br>
+        <input type="checkbox" id="html-news" name="user_newsletter" value="html"><label for="html-news">HTML News</label><br>
+        <input type="checkbox" id="css-news" name="user_newsletter" value="css"><label for="css-news">CSS News</label><br>
+        <input type="checkbox" id="javascript-news" name="user_newsletter" value="javascript"><label for="javascript-news">Javascript News</label><br>
 
-    <label> News Letter Format</label><br>
+      <label> News Letter Format</label><br>
 
-    <input type="checkbox" id="html-format" name="newsletter-format" value="html"><label for="HTML">HTML</label><br>
-    <input type="checkbox" id="plain-text-format" name="newsletter-format" value="plain-text"><label for="plain-text">Plain Text</label><br>
+      <input type="checkbox" id="html-format" name="newsletter-format" value="html"><label for="HTML">HTML</label><br>
+      <input type="checkbox" id="plain-text-format" name="newsletter-format" value="plain-text"><label for="plain-text">Plain Text</label><br>
 
-    <label>Other topics you would like to learn about</label><br>
-    <textarea id="comments" name="comments" placeholder="Enter your thoughts here..."></textarea><br>
+      <label>Other topics you would like to learn about</label><br>
+      <textarea id="comments" name="comments" placeholder="Enter your thoughts here..."></textarea><br>
 
-    <input type="submit">
+      <input type="submit">
 
-  </fieldset>
+    </fieldset>
+
+  </div>
 
   <footer>
-    <p class="w-text"><em>Copyright The Code Review</em></p>
+    <p class="b-text"><em>Copyright The Code Review</em></p>
   </footer>
 </body>
 

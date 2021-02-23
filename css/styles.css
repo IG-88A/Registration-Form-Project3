@@ -1,1 +1,40 @@
-/*----YAAAA-----*/
+* {
+    box-sizing: border-box;
+}
+
+
+/*------HEADING------*/
+.header{
+    text-align: center;
+
+}
+
+
+
+/*------HEADER SUB-TEXT------*/
+
+.a-text {
+    text-align: center;
+
+}
+
+
+.b-text {
+    text-align: center;
+}
+
+/*------FORM ------*/
+
+#container {
+    max-width: 768px;
+    margin: 0 auto;
+    
+}
+
+
+/*-----FOOTER-------*/
+
+
+
+
+/*-----FOOTER-------*/
