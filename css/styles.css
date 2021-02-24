@@ -6,7 +6,9 @@
 /*------HEADING------*/
 .header{
     text-align: center;
-
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px 5px;
 }
 
 
@@ -15,7 +17,6 @@
 
 .a-text {
     text-align: center;
-
 }
 
 
@@ -25,11 +26,53 @@
 
 /*------FORM ------*/
 
+form {
+    border-top: 6px double black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 #container {
     max-width: 768px;
     margin: 0 auto;
+    border: none;
     
 }
+
+
+input,
+select,
+textarea {
+    padding: 1rem;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.contact-info {
+    border: none;
+    margin: 15px auto;
+    border-bottom: 2px solid black;
+    padding-top: 25px;
+    padding-bottom: 35px; 
+}
+
+.news-field {
+    border: none;
+    margin: 15px auto;
+    border-bottom: 2px solid black;
+    padding-top: 25px;
+    padding-bottom: 35px; 
+
+}
+
+.contact-info .flex-pair {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /*-----FOOTER-------*/
