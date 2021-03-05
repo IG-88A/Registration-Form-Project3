@@ -72,6 +72,9 @@ textarea {
     flex-direction: column;
 }
 
+input[type="checkbox"] {
+    margin: 10px 10px 10px 10px;
+}
 
 
 
