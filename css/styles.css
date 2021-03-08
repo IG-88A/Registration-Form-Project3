@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: oldlace;
+}
 
 /*------HEADING------*/
 .header{
@@ -48,6 +51,7 @@ textarea {
     border-radius: 5px;
     margin-bottom: 5px;
     transition: 0.5s;
+    right: auto;
 }
 
 .contact-info {
@@ -69,14 +73,26 @@ textarea {
 
 .contact-info .flex-pair {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 input[type="checkbox"] {
     margin: 10px 10px 10px 10px;
 }
 
+input[type="text"] {
+margin: auto;
+width: relative;
+}
 
+select {
+    margin: auto;
+    width: 100px;
+}
+
+textarea {
+    width: 100%;
+}
 
 
 
