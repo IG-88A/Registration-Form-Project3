@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: oldlace;
+    background-color: white:
 }
 
 /*------HEADING------*/
 .header{
     text-align: center;
-    background-color: darkslategrey;
+    background-color: rgb(44,59,71);
     color: white;
     padding: 5px 5px;
 }
@@ -71,28 +71,34 @@ textarea {
 
 }
 
-.contact-info .flex-pair {
-    display: flex;
-    flex-direction: row;
-}
+
 
 input[type="checkbox"] {
     margin: 10px 10px 10px 10px;
 }
 
 input[type="text"] {
-margin: auto;
-width: relative;
+margin: 5px 0px 5px 0px;
 }
 
 select {
     margin: auto;
-    width: 100px;
+    width: auto;
+    margin: 5px 0px 5px 0px;
 }
 
 textarea {
     width: 100%;
 }
+
+{
+    margin: auto;
+    background: linear-gradient(
+      35deg,
+      #CCFFFF,
+      #FFCCCC
+    );
+  }
 
 
 
