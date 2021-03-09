@@ -3,8 +3,12 @@
 }
 
 body {
-    background-color: white:
+    background-color: white;
 }
+
+.flex-container {
+    display: flex;
+  }
 
 /*------HEADING------*/
 .header{
@@ -30,7 +34,7 @@ body {
 /*------FORM ------*/
 
 legend{
-    font-size: 20px;
+    font-size: 1.4em;
 }
 form {
     border-top: 6px double black;
@@ -75,7 +79,8 @@ textarea {
 }
 
 label {
-    padding-right: 20px;
+    margin: auto;
+    font-size: 1.1rem;
 }
 
 
@@ -84,14 +89,13 @@ input[type="checkbox"] {
 }
 
 input[type="text"] {
-margin: 5px 0px 5px 0px;
-}
-
-select {
-    margin: 0 auto;
-    width: 0 auto;
     margin: 5px 0px 5px 0px;
-}
+} 
+
+.flex-container > input {
+    width: 100%;
+  }
+
 
 textarea {
     width: 100%;
@@ -114,6 +118,11 @@ button{
     cursor: pointer;
     border: none;
 }
+
+.flex-container > input {
+    width: 80%;
+  }
+
 
 /*-----FOOTER-------*/
 
