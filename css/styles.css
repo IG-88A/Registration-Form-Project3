@@ -47,10 +47,8 @@ form {
 /*-------CONTACT INFO------*/
 .contact-info {
     border: none;
-    border-bottom: 3px solid black;
-    width: 100%;
+    border-bottom:  3px solid black;
 }
-
 
 
 input,
@@ -66,6 +64,11 @@ select {
 input::placeholder {
     color: black;
     font-style: italic;
+}
+
+.contact-info .flex-pair {
+    display: flex;
+    flex-direction: column;
 }
 /*-------NEWS LETTER------*/
 
@@ -101,4 +104,25 @@ button {
 }
 /*-------FOOTER -----*/
 
-@media (min-width)
+@media(min-width: 768px) {
+
+    
+.contact-info .flex-pair {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-pair label {
+    flex-basis: 25%;
+}
+
+.flex-pair input, select {
+    flex-basis: 75%;
+}
+
+#zip {
+    flex-basis: 25%;
+}
+
+
+}
