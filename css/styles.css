@@ -4,8 +4,8 @@
 
 body {
     background-color: white;
+   font-family: 'Roboto', serif;
 }
-
 
 
 /*------HEADING------*/
@@ -63,24 +63,35 @@ form {
 }
 
 
+input[name="zip"] {
+    width: 40%;
+}
+
+
 input,
 textarea,
 select {
     border-radius: 4px;
     padding: 1rem;
     background-color: lightgray;
-    margin-bottom: .2rem;
+    margin-bottom: .5rem;
     border: none;
 }
 
 input::placeholder {
-    color: black;
+    color: grey;
     font-style: italic;
+    text-align: right;
 }
 
 .contact-info .flex-pair {
     display: flex;
     flex-direction: column;
+}
+
+#state {
+    color: grey;
+    font-style: italic;
 }
 /*-------NEWS LETTER------*/
 
@@ -143,8 +154,8 @@ button {
     flex-basis: 75%;
 }
 
-#zip {
-    flex-basis: 25%;
+input[type="zip"] {
+    flex-basis: 20%;
 }
 
 
