@@ -63,10 +63,6 @@ form {
 }
 
 
-input[name="zip"] {
-    width: 40%;
-}
-
 
 input,
 textarea,
@@ -92,6 +88,10 @@ input::placeholder {
 #state {
     color: grey;
     font-style: italic;
+}
+
+#zip{
+    width: 50%;
 }
 /*-------NEWS LETTER------*/
 
@@ -136,6 +136,7 @@ button {
     font-size: 25px;
     color: white;
 }
+
 /*-------FOOTER -----*/
 
 @media(min-width: 768px) {
@@ -148,15 +149,14 @@ button {
 
 .flex-pair label {
     flex-basis: 25%;
+    padding-top: 15px
 }
-
 .flex-pair input, select {
     flex-basis: 75%;
 }
 
-input[type="zip"] {
-    flex-basis: 20%;
+input[id="zip"] {
+    flex-basis: 25%;
 }
-
 
 }
